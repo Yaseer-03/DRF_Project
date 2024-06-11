@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media only screen and (min-width:720px) {
+            * {
+                margin: 0px;
+            }
+
+            .first_menuBar {
+                height: 20px;
+                background-color: #00539F;
+                padding: 10px;
+            }
+
+
+            .nav_bar1 {
+                color: #fff;
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                margin-left: 20px;
+                font-size: 14px;
+
+            }
+
+            .select_lan {
+                position: relative;
+                left: 920px;
+            }
+
+            .container {
+                margin-left: 60px;
+
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .container h1 {
+                text-align: left;
+                font-size: xx-large;
+                margin-left: 280px;
+            }
+
+            .leader_imgs {
+                width: 330px;
+                height: 350px;
+                border-top-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+            }
+
+            .child {
+                height: 350px;
+                margin: 70px;
+            }
+
+            .child1 {
+                height: 350px;
+                margin: 70px;
+                background-image: "url('about1.png');"
+            }
+
+            .about_1 {
+                position: relative;
+                left: 50px;
+                width: 1200px;
+            }
+
+
+
+            body {
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+                line-height: 2;
+            }
+
+            .heading1 {
+                text-align: center;
+                font-size: 18px;
+            }
+
+            .heading2 {
+                text-align: center;
+                font-size: 25px;
+            }
+
+
+            .name {
+                color: #134f98;
+                position: relative;
+                left: 50px;
+                font-weight: bolder;
+                font-size: larger;
+
+                width: 1100px;
+            }
+
+            table {
+                border-radius: 10px;
+
+                border-spacing: 2px;
+
+                width: 1100px;
+                margin-left: 60px;
+                border-style: dashed;
+            }
+
+            .tr1 {
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+
+            .publication {
+
+                font-family: 'Poppins', sans-serif;
+                width: 7px;
+
+                margin-left: 130px;
+
+            }
+
+            table {
+                width: 1100px;
+                border-radius: 2px;
+                /* height: 1100px; */
+            }
+
+            .foot {
+
+                height: 570px;
+                width: 1490px;
+                background-color: #1268B2;
+            }
+
+            .footerimg {
+                position: relative;
+                left: 17px;
+            }
+
+            .content_1 {
+                border: 2px;
+                padding: 5px;
+                border-radius: 6px;
+                position: relative;
+                height: 20px;
+                left: 20px;
+                top: 10px;
+                background-color: white;
+                color: #134FA5;
+            }
+
+            .content_2 {
+                color: white;
+                position: relative;
+                top: 40px;
+                left: 15px;
+            }
+
+            .for_patients {
+                color: white;
+                position: relative;
+                left: 350px;
+                top: -390px;
+            }
+
+            .patients_anchor {
+                text-decoration: none;
+                color: white;
+            }
+
+
+            .for_company {
+                color: white;
+                position: relative;
+                left: 700px;
+                top: -793px;
+            }
+
+            .company_anchor {
+                text-decoration: none;
+                color: white;
+            }
+
+
+            .quicklinks {
+                color: white;
+                position: relative;
+                left: 950px;
+                top: -1088px;
+            }
+
+            .quick_anchor {
+                text-decoration: none;
+                color: white;
+            }
+
+            .quick_anchor:hover {
+                color: #e29e5f;
+            }
+
+            .contact_us {
+                color: white;
+                position: relative;
+                left: 1217px;
+                top: -1312px;
+            }
+
+            .contact_anchor {
+                text-decoration: none;
+                color: white;
+            }
+
+            .contact_anchor:hover,
+            .icons_anchor:hover,
+            .quick_anchor:hover,
+            .company_anchor:hover,
+            .patients_anchor:hover {
+                color: #e29e5f;
+            }
+
+            .copyright {
+                position: relative;
+                left: 400px;
+                color: white;
+                top: -1450px;
+            }
+
+            .copyright_hr {
+                position: relative;
+                top: -1460px;
+            }
+
+            .icons_anchor {
+                color: white;
+                padding: 8px;
+                font-size: 20px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first_menuBar">
+        <nav>
+            <a href="" class="nav_bar1"><i class="fa-solid fa-phone"></i> 040 68334455</a>
+            <a href="" class="nav_bar1 navbar1_1"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <a href="" class="nav_bar1 navbar1_1"><i class="fa-solid fa-arrow-up-right-from-square"></i> CPR Training
+                Registration</a>
+            <select class="select_lan">
+                <option value="">Select Language </option>
+                <option value="">English</option>
+                <option value="">German</option>
+                <option value="">Arabic</option>
+                <option value="">Hindi</option>
+                <option value="">Italian </option>
+                <option value="">Tamil</option>
+                <option value="">Kanada</option>
+                <option value="">Malayalam</option>
+                <option value="">Telugu</option>
+            </select>
+
+        </nav>
+
+    </div>
+    <nav class="navbar">
+        <img src="imagess/logo.png" alt="LOGO" style="height: 80px; width: 100px;">
+        <div class="container">
+            <div class="nav-data"><a href="Doctors.html">Doctors</a></div>
+            <div class="nav-data"><a href="index.html">Home</a></div>
+            <div class="hptls nav-data"><a href="">Hospitals ▼</a>
+                <div class="dropdown-menu">
+                    <li><a class="dropdown-items" href="">Telangana</a></li>
+                    <li><a class="dropdown-items" href="">AndhraPradesh</a></li>
+                    <li><a class="dropdown-items" href="">Maharashtra</a></li>
+                    <li><a class="dropdown-items" href="">Karnataka</a></li>
+                </div>
+            </div>
+            <div class="splts nav-data"><a href="">Specialties ▼</a>
+                <div class="dropdown-content">
+                    <li class="dropdown-info"><a href="cardiology.html">Cardiology</a></li>
+                    <li class="dropdown-info"><a href="Cancer.html">Cancer</a></li>
+                    <li class="dropdown-info"><a href="Gynecology.html">Gynecology</a></li>
+                    <li class="dropdown-info"><a href="Oncology.html">Oncology</a></li>
+                    <li class="dropdown-info"><a href="Orthopedics.html">Orthopedics</a></li>
+
+                </div>
+            </div>
+            <div class="nav-data"><a href="">My Patients</a></div>
+            <div class="nav-data"><a href="about_hosp.html">About</a></div>
+        </div>
+        <button class="Appointment"><a href="appont-form.html" style="color: white; size: 10px;">Book An
+                Appointment</a></button>
+    </nav>
+
+    <div>
+        <div class="child1">
+            <div class="child about1">
+                <img src="about1.jpg" alt="img" class="leader_imgs" align="left">
+
+                <p class="about_1">Medicover is a globally recognised healthcare brand with operations in 12 countries:
+                    Germany, Sweden, Poland, Turkey, Belarus, Bulgaria, Georgia, Hungary, Romania, Serbia, Moldova,
+                    Ukraine, and India.
+
+                    Medicover is a leading Multispecialty Hospital chain with a significant presence in India. We
+                    provide a broad spectrum of health care services and have an extensive network of clinics,
+                    hospitals, specialty care facilities, Fertility Centers, and diagnostic labs.
+
+                    Medicover Hospitals is spread across the three states of Telangana, Andhra Pradesh, and Maharashtra
+                    treating millions of patients every year with a focus on augmenting healthcare standards in India.
+                    We have renowned medical teams who work with the greatest technologies and international
+                    evidence-based protocols which offer the most comprehensive treatment across all specialties of
+                    medicines.
+                </p>
+            </div>
+        </div>
+        <div class="heading1">
+            <h1><b>LEADERSHIP TEAM</b></h1>
+        </div>
+        <div class="child">
+            <img src="dr-anil-krishna-leader.webp" alt="img" class="leader_imgs" align="left">
+
+            <p class="name">Dr. G. Anil Krishna <br>
+                Chairman - Managing Director <br>
+                Medicover Hospitals, India <br>
+            </p>
+            <p class="about_1">
+                Dr. Anil Krishna is one of the leading specialists in Interventional Cardiology and has headed many
+                successful procedures related to reopening blocked coronaries.
+
+                He is well-known for handling critical situations and has performed a number of complex interventional
+                procedures. <br>
+
+                "Our aim is to expand pan-India and overseas, and deliver European standard healthcare excellence to
+                everyone in need of quality healthcare."
+            </p>
+
+        </div>
+        <div class="child">
+            <img src="harikrishna .webp" alt="img" class="leader_imgs" align="right">
+
+            <p class="name">Mr. P. Hari Krishna </bold><br>
+                <bold>Executive Director,</bold> <br>
+                Medicover Hospitals, India <br></bold>
+            </p>
+            <p class="about_1">
+                Mr. Hari Krishna is the Executive Director of Medicover Hospitals in India and has over 18 years of
+                consumer<br>
+                and healthcare marketing experience. <br>
+
+                With his in-depth knowledge in all aspects of hospital operations, he is known for spearheading the
+                company's vision <br>
+                and managing the entire administration and marketing of Medicover Hospitals. <br>
+
+                He is responsible for strategy, planning and business development for the entire India operations.
+            </p>
+        </div>
+
+        <div class="child">
+            <img src="dr-a-sharath-reddy.webp" alt="img" class="leader_imgs" align="left">
+
+            <p class="name"> Dr. A Sharath Reddy<br>
+                Executive Director,<br>
+                Senior Interventional Cardiologist <br>
+            </p>
+            <p class="about_1">
+
+
+                With an unparalleled track record, Dr. Sharath Reddy is one of the few to be ranked in the league of
+                eminent cardiologists. He specialises in interventional cardiology & echocardiography.<br>
+
+                He has fellowships in various international cardiac societies, including American College of Cardiology,
+                American Heart Association,<br>
+                Society for Cardiovascular Angiography and Interventions, and European Society of Cardiology. <br>
+
+            </p>
+
+        </div>
+        <div class="child">
+            <img src="dr-krishna-prasad.webp" alt="img" class="leader_imgs" align="right">
+
+            <p class="name">Dr. A R Krishna Prasad<br>
+                Director and Chief<br>
+                Consultant Cardiothoracic Surgeon <br>
+            </p>
+            <p class="about_1">
+
+                Dr. A R Krishna Prasad is working as the Director and Chief Cardiothoracic Surgeon at Medicover
+                Hospitals, Hyderabad.<br>
+                He has extensive knowledge and wide 20 Years of experience.
+
+
+
+            </p>
+        </div>
+        <div class="child">
+            <img src="dr-sateesh-kumar-kailasam.webp" alt="img" class="leader_imgs" align="left">
+
+            <p class="name"> Dr. Sateesh Kumar Kailasam<br>
+                Group Medical Director<br>
+            </p>
+            <p class="about_1">
+
+                Dr. Sateesh Kumar Kailasam is a top rated Emergency Medicine Consultant. He has extensive experience in
+                establishing clinical departments and implementing structured policies.<br>
+
+                He believes that medical practice is an amalgamation of excellence in clinical, academic and
+                administrative aspects; thus he ensures his entire team demonstrates this in their everyday
+                operations.<br>
+
+                In line with his keen interest in academics, he has started various programs like the DNB Program, Royal
+                College Program and various other medical and technicians training programs within the group.
+            </p>
+
+        </div>
+        <div>
+            <h1 class="publication-label" align="center">
+                <b>PUBLICATIONS</b>
+            </h1>
+            <section class="publication">
+
+                <div class="container">
+                    <div class="table-content">
+                        <table cellpadding="10" class=" table table-striped">
+                            <tbody>
+                                <tr class="tr1" style="background-color:#134f98 ;   color:white; ">
+                                    <th>Document Name</th>
+                                    <th>View</th>
+                                </tr>
+                                <tr>
+                                    <td>Annexure -1 - Scheme of Amalgamtion</td>
+                                    <td><a
+                                            href="https://www.medicoverhospitals.in/pdf/Annexure-1-Scheme-of-Amalgamtion.pdf"><i
+                                                class="fa-regular fa-file-pdf"></i>View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Notice to unsecured creditors- Sahrudaya Health Care (Kurnool) (Transferor 2)
+                                    </td>
+                                    <td><a
+                                            href="https://www.medicoverhospitals.in/pdf/Notice-to-unsecured-creditors-Sahrudaya-Health-Care-(Kurnool).pdf"><i
+                                                class="fa-regular fa-file-pdf"></i>View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Notice to unsecured creditors- Sahrudaya Health Care (Transferee)</td>
+                                    <td><a
+                                            href="https://www.medicoverhospitals.in/pdf/Notice-to-unsecured-creditors-Sahrudaya-Health-Care-(Transferee).pdf"><i
+                                                class="fa-regular fa-file-pdf"></i>View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Notice to unsecured creditors- Suyosha Health Care (Transferor 1)</td>
+                                    <td><a
+                                            href="https://www.medicoverhospitals.in/pdf/Notice-to-unsecured-creditors-Suyosha-Health-Care-(Transferor-1).pdf"><i
+                                                class="fa-regular fa-file-pdf"></i>View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Fraud Warning Disclaimer - Careers</td>
+                                    <td><a href="https://www.medicoverhospitals.in/pdf/fraud-warning-disclaimer.pdf"><i
+                                                class="fa-regular fa-file-pdf"></i>View</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <div><br></div>
+            <div><br></div>
+
+            <footer class="foot">
+                <div class="footerimg">
+                    <img src="foot_icon.jpeg" alt="footer icon">
+                </div>
+                <div>
+                    <span class="content_1">Caring for your health is all we do </span>
+                </div>
+                <div class="content_2">
+                    Medicover is a globally recognised <br> healthcare brand with operations in 12 <br> countries:
+                    Germany,
+                    Sweden,
+                    Poland, <br> Turkey, Belarus, Bulgaria, Georgia, <br> Hungary, Romania, Serbia, Moldova, <br>
+                    Ukraine, &
+                    India.
+                </div>
+                <div class="for_patients">
+                    <h3>FOR PATIENTS</h3>
+                    <hr color="white" width="140px" align="left">
+                    <p><a a href="#" class="patients_anchor">Hospitals</a></p>
+                    <p><a a href="#" class="patients_anchor">Doctors</a></p>
+                    <p><a a href="#" class="patients_anchor">Surgery Cost</a></p>
+                    <p><a a href="#" class="patients_anchor">Health Checkups</a></p>
+                    <p><a a href="#" class="patients_anchor">Fitness Health Calculator</a></p>
+                    <p><a a href="#" class="patients_anchor">Medicines</a></p>
+                    <p><a a href="#" class="patients_anchor">Symptoms</a></p>
+                    <p><a a href="#" class="patients_anchor">Disease</a></p>
+                    <p><a a href="#" class="patients_anchor">Procedure</a></p>
+                    <p><a a href="#" class="patients_anchor">Offers</a></p>
+                </div>
+                <div class="for_company">
+                    <h3>COMPANY</h3>
+                    <hr color="white" width="140px" align="left">
+                    <p><a href="#" class="company_anchor">About Us</a></p>
+                    <p><a href="#" class="company_anchor">Careers</a></p>
+                    <p><a href="#" class="company_anchor">News Room</a></p>
+                    <p><a href="#" class="company_anchor">Success Stories</a></p>
+                    <p><a href="#" class="company_anchor">Contact Us</a></p>
+                    <p><a href="#" class="company_anchor">Privacy Policies</a></p>
+                    <p><a href="#" class="company_anchor">Site Map</a></p>
+                </div>
+
+                <div class="quicklinks">
+                    <h3>QUICK LINKS</h3>
+                    <hr color="white" width="140px" align="left">
+                    <p><a href="#" class="quick_anchor">Women And Child</a></p>
+                    <p><a href="#" class="quick_anchor">Book An Appointment</a></p>
+                    <p><a href="#" class="quick_anchor">Diagnostics And Pathalogy Test</a></p>
+                    <p><a href="#" class="quick_anchor">Home Health Services</a></p>
+                    <p><a href="#" class="quick_anchor">Articles</a></p>
+                </div>
+
+                <div class="contact_us">
+                    <h3>CONTACT US</h3>
+                    <hr color="white" width="140px" align="left">
+                    <p><i class="fa-solid fa-phone"></i> &nbsp; We provide 24*7 services <br> <a href="#"
+                            class="contact_anchor"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;040-68334455</a></p>
+                    <p><i class="fa-regular fa-envelope"></i> &nbsp; Email us at <br> <a href="#"
+                            class="contact_anchor">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@medicoverhospitals.in</a>
+                    </p>
+                    <p><i class="fa-brands fa-whatsapp"></i> &nbsp; WhatsApp us at <br> <a href="#"
+                            class="contact_anchor">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;917032969191</a></p>
+                    <p>
+                        <a href="#" class="icons_anchor"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" class="icons_anchor"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#" class="icons_anchor"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="icons_anchor"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" class="icons_anchor"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+                <br><br><br><br><br><br><br><br>
+                <hr color="#1676CA" class="copyright_hr">
+                <p class="copyright">Copyrights &#169; 2024 All Rights Reserved by Medicover Hospitals (A Unit of
+                    Sahrudaya
+                    Health Care Private Limited)</p>
+            </footer>
+
+</body>
+
+</html>

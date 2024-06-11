@@ -1,0 +1,42 @@
+*{
+    padding: 6px;
+}
+.foot{
+    margin-top:30px;
+    background-color: #1268B2;
+    display: flex;
+    justify-content: space-around;
+    
+}
+hr{
+    padding: 0;
+}
+.patients_anchor,.company_anchor,.quick_anchor{
+    color:white;
+}
+.fa-brands{
+    color:#fff;
+}
+.endfoot{
+    background-color: #1268B2;
+    text-align: center;
+    color:white;
+}
+.label{
+    color:white;
+}
+.content_1{
+    background-color: white;
+    padding: 7px;
+    border-radius: 7px;
+    color: #1268B2;
+}
+a,.content_2{
+    color: white;
+}
+a:hover{
+    color: #e29e5f;
+} 
+.icons_anchor{
+    padding: 10px;
+}

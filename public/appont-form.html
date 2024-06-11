@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Appointment</title>
+    <link rel="icon" type="image/png" sizes="62x62" href="logo.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+        background-image: url(imagess/international-bnr.webp);
+    }
+
+    .from-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    .Appointment-form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        width: 36%;
+        height: 36rem;
+        padding: 0 4px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 4px 4px lightgray;
+        background-image: url(imagess/about-shape2.png);
+        background-color: #DDE0E7;
+
+    }
+
+    input {
+        padding: 12px;
+        width: 400px;
+        border-radius: 4px;
+        background-color: #fff;
+        border: none;
+        font-weight: bolder;
+
+    }
+
+    select {
+        padding: 12px;
+        width: 428px;
+        border-radius: 4px;
+        border: none;
+        background-color: #fff;
+    }
+
+
+
+    textarea {
+        width: 390px;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #fff;
+    }
+
+
+
+    button {
+        width: 30%;
+        padding: 12px;
+        background-color: #134F98;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    button:hover {
+        background-color: #FF8C00;
+        transition-duration: 0.8s;
+    }
+</style>
+
+<body>
+
+    <nav class="navbar">
+        <img src="imagess/logo.png" alt="LOGO" style="height: 80px; width: 120px;">
+        <div class="container">
+            <div class="nav-data"><a href="Doctors.html">Doctors</a></div>
+            <div class="nav-data"><a href="../index.html">Home</a></div>
+            <!--<div class="hptls nav-data"><a href="">Hospitals ▼</a>
+                <div class="dropdown-menu">
+                    <li><a class="dropdown-items" href="">Telangana</a></li>
+                    <li><a class="dropdown-items" href="">AndhraPradesh</a></li>
+                    <li><a class="dropdown-items" href="">Maharashtra</a></li>
+                    <li><a class="dropdown-items" href="">Karnataka</a></li>
+                </div>
+            </div>-->
+            <div class="splts nav-data"><a href="">Specialties ▼</a>
+                <div class="dropdown-content">
+                    <li class="dropdown-info"><a href="cardiology.html">Cardiology</a></li>
+                    <li class="dropdown-info"><a href="Cancer.html">Cancer</a></li>
+                    <li class="dropdown-info"><a href="Gynecology.html">Gynecology</a></li>
+                    <li class="dropdown-info"><a href="Oncology.html">Oncology</a></li>
+                    <li class="dropdown-info"><a href="Orthopedics.html">Orthopedics</a></li>
+
+                </div>
+            </div>
+            <div class="nav-data"><a href="patients.html">For Patients</a></div>
+            <div class="nav-data"><a href="about_hosp.html">About</a></div>
+        </div>
+        <div style="background-color: #fff;">
+
+
+            <button class="Appointment" style="background-color: white;"><a href="appont-form.html"
+                    style="color: white; size: 0px; background-color: #fff;">Book An
+                    Appointment</a></button>
+        </div>
+    </nav>
+
+
+    <div class="from-container">
+        <form class="Appointment-form">
+            <h1>Book Your Doctor's Appointment <br>Online Medicover Hospitals</h1>
+            <input type="text" placeholder="Enter Name">
+            <input type="number" placeholder="Mobile Number" pattern="[6789]{1}[0-9]{9}" title="Start with 6,7,8,9,">
+            <select>
+                <option>select Location</option>
+                <option>hyderabad</option>
+                <option>bengaluru</option>
+                <option>vizag</option>
+                <option>Mumbai</option>
+            </select>
+            <select>
+                <option>select specialty</option>
+                <option>Cardiology</option>
+                <option>Cancer</option>
+                <option>Orthopedics</option>
+                <option>Gastroenterology</option>
+                <option>Genera SurgeryOncology</option>
+                <option>Oncology</option>
+            </select>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
